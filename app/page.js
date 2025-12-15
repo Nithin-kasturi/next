@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-export default function Home() {
+export default async function Home({ params }) {
   return (
     <>
       <h1>This is home page</h1>
