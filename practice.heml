@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World!</h1>
+      <p id="currentTime"></p>
+      <button onclick="playGame('rock');">Rock</button>
+      <button onclick="playGame('paper');">Paper</button>
+      <button onclick="playGame('scissors');">Scissor</button>
+      
+      <p class='win'></p>
+      <p class='lose'></p>
+      <p class='tie'></p>
+      
+      <br/>
+      <br/>
+      <button class="subscribe" onclick="subscribe();">Subscribe</button>
+      
+      <br/>
+      <br/>
+      
+      
+      <p>If under 40$ +$10 for shipping</p>
+      <p>Else if above 40$ free shipping</p>
+      <input type="number" class="amount" placeholder="Enter the amount"/>
+      <button onclick="calculate();">Calculate</button>
+      
+      <p class='final-amount'></p>
+      
+      <button class="test-button js-btn-1" onclick="handleButton('js-btn-1');">Button 1</button>
+      <button class="test-button js-btn-2" onclick="handleButton('js-btn-2');">Button 2</button>
+      <button class="test-button js-btn-3" onclick="handleButton('js-btn-3');">Button 3</button>
+      
+      <br/>
+      <br/>
+      <div class="todo-grid">
+        
+      <input class="todo-input-1" /> 
+      <input type="date" class="todo-date"/>
+      <button class="todo-note-1" onclick="addTodo();">Note</button>
+      
+      <div class="all-todos todo-grid">
+        
+      </div>
+      </div>
+      <div class="todo-grid">
+        
+      </div>
+      
+      <button onclick="handleClick('rock');">Rock</button>
+      <button onclick="handleClick('paper');">Paper</button>
+      <button onclick="handleClick('scissors');">Scissor</button>
+      <button onclick="autoPlay();" class="auto-play">Auto Play</button>
+      <p class="scores"></p>
+      
+      <script src="script.js"></script>
+  </body>
+</html>
